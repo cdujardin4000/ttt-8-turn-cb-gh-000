@@ -6,7 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
 input = gets.strip
-converted_input = input_to_index(input)
+index = input_to_index(input)
 valid_move?(board, index)
   if  position_taken?(board, index) == false && index.between?(0, 8)
     move(board, converted_input, value = "X")
