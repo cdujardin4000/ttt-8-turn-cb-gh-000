@@ -35,5 +35,5 @@ def move(board, converted_input, value = "X")
 end
 
 def turn(board)
-  puts "Please enter 1-9:"
+  puts "Please enter 1-9: '1 for top left and 9 for bottom right'"
 end
